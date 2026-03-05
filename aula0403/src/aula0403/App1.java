@@ -16,7 +16,7 @@ public class App1 {
 		
 		//idade
 		System.out.println("Digite sua idade: ");
-		int idade  = sc.nextInt();
+		int idade1  = sc.nextInt();
 		
 		//nota
 		System.out.println("Digite sua idade: ");
@@ -24,7 +24,7 @@ public class App1 {
 		
 		//Imprimir
 		System.out.println("Nome...: " + nome);
-		System.out.println("Idade...: " + idade);
+		System.out.println("Idade...: " + idade1);
 		System.out.println("Nota...: " + nota);
 		
 	}
