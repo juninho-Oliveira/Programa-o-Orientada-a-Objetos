@@ -9,12 +9,15 @@ public class App4 {
 		 */
 		
 		// array ou vetor
-		int v[] = {91, 10, 50, 89, 45, 80, 2, 45, 3, 105, 95, 13, 26, 49, 50};
+		int v[] = {91, 10, 50, 89, 45,};
 		int soma = 0;
 		
 		for (int i = 0; i < v.length; i++) {
-			soma += v[i];
-			System.out.println(v[i]);
+			
+			if(v[i] % 2 == 0) {
+				soma += v[i];
+				System.out.println("Numero pares" + v[i]);
+			}
 		}
 		
 		System.out.println("Valor da soma do vetor é:...: " + soma);
